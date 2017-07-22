@@ -6,5 +6,6 @@ The user will have the option of picking starting and ending locations and then 
 The program will use Dijkstra's shortest path algorithm for this.
 The user will also have the option of visiting every city in the graph. 
 In this case Kruskal's Minimum Spanning Tree Algorithm will be used to determine the shortest route to visit all cities.
+The user will be able to select a subset of cities as well to travel to.
 Each of the cities will also contain a binary search tree of restaurants from that city.
 Each of the restaurants will consist of a name, a rating, a type, and a price point.
