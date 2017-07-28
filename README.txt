@@ -1,11 +1,31 @@
-FINAL PROJECT
-For my final project I have decided to make a travelling program. 
-My program will make a weighted undirected graph.
-The vertices will be cities and it will give the user options on where to travel.
-The user will have the option of picking starting and ending locations and then will have the option of deciding whether they'd want to take the shortest, fastest, or cheapest route.
-The program will use Dijkstra's shortest path algorithm for this.
-The user will also have the option of visiting every city in the graph. 
-In this case Kruskal's Minimum Spanning Tree Algorithm will be used to determine the shortest route to visit all cities.
-The user will be able to select a subset of cities as well to travel to.
-Each of the cities will also contain a binary search tree of restaurants from that city.
-Each of the restaurants will consist of a name, a rating, a type, and a price point.
+Project Summary
+This program is designed to calculate the shortest route from point A
+to point B. It does so by using the Dijkstra shortest path algorithm. This program also uses 
+a binary search tree to hold a list of restaurants for each of the destinations. It also uses an algorithm
+for calculating the shortest path through all the vertices.The program consists of a 
+Graph.cpp, a Graph.hpp, and a main.cpp
+
+How to Run
+This program is very simple to use. It start with a menu with 4 option:
+
+1. shortest path
+2. restaurants 
+3. adjacent
+4. quit
+
+Choosing option 1 prompts user to select starting location and then destination.
+The number of miles in the fastest route is displayed on the screen.
+
+Choosing option 2 prompts the user to select a location. From this a method will be called to traverse and print
+the binary search tree in alphabetical order. The screen will show a list containing the name, rating, and cost of the 
+restaurants in that particular location.
+
+Choosing option 3 prompts user to select two locations and displays on the screen whether 
+they are adjacent or not
+
+
+Dependencies
+There are no dependencies
+
+System Requirements
+Requires Windows, Mac, or Linux. No other requirements
